@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+  margin:0 auto;
+  padding:20px;
+  text-align:center;
+  box-sizing:border-box;
+}
+body *{
+  border-radius:8px;
+  transition:all 0.1s
+}
+
+
+hover,aside:hover,footer:hover,section:hover,article:hover{
+  background:rgba(0,0,0,0.4);
+  color:#fff
+}
+section:hover article{
+  border-color:#fff
+}
+aside{
+  width:23%;
+  float:left;
+  height:420px
+}
+section{
+  width:75%;
+  float:right;
+  height:420px
+}
+header{
+  text-align:left;
+}
+nav{
+  width:75%;
+  float:right;
+  background:#aaa;
+  border-radius:4px;
+  padding:5px;
+  color:#fff;
+  text-align:center;
+  margin:-5px
+}
+
+footer{
+  clear:both;
+}
